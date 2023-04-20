@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul{
+  list-style: none;
+  font-family: 'Share Tech Mono', monospace;
+}
+nav {
+  font-family: 'Share Tech Mono', monospace;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #0f3854;
+  background: radial-gradient(ellipse at center,  #0a2e38  0%, #000000 70%);
+  background-size: 100%;
+  text-decoration: none;
+}
+
+nav a {
+  font-family: 'Share Tech Mono', monospace;
+  float: left;
+  color: aliceblue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  font-family: 'Share Tech Mono', monospace;
+  background: #0f3854;
+  text-decoration: none;
+}
+
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  background: #0f3854;
+  background: radial-gradient(ellipse at center, #0a2e38 0%, #000000 70%);
+  background-size: 100%;
+}
+
+#wrapper {
+  padding: 100px;
+  border-radius: 30px;
+  background: radial-gradient(ellipse at center, #0a2e38 0%, #000000 70%);
+}
+label{
+  color: aliceblue;
+}
+
+#countdown {
+  color: aliceblue;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 150px;
+  font-family: 'Share Tech Mono', monospace;
+  transform: translate(-50%, -50%);
+  color: #daf6ff;
+}
+
+#chrono {
+  text-align: center;
+  font-size: 100px;
+  margin-bottom: 30px;
+  color: aliceblue;
+}
+
+button {
+  font-size: 25px;
+  width: 210px;
+  padding: 10px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  background: radial-gradient(ellipse at center, #0a2e38 0%, #000000 70%);
+  color: aliceblue;
+  margin-left: 15px;
+}
+
+button:last-child {
+  margin-right: 0;
+}
+
+#liste {
+  padding: 10px;
+  margin: 20px;
+  text-decoration: none;
+  text-align: center;
+  background: radial-gradient(ellipse at center, #0a2e38 0%, #000000 70%);
+  color: aliceblue;
+}

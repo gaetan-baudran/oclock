@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    background: #0f3854;
+    background: radial-gradient(ellipse at center,  #0a2e38  0%, #000000 70%);
+    background-size: 100%;
+  }
+ul{
+    list-style: none;
+    font-family: 'Share Tech Mono', monospace;
+  }
+  nav {
+    font-family: 'Share Tech Mono', monospace;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #0f3854;
+    background: radial-gradient(ellipse at center,  #0a2e38  0%, #000000 70%);
+    background-size: 100%;
+    text-decoration: none;
+  }
+  
+  nav a {
+    font-family: 'Share Tech Mono', monospace;
+    float: left;
+    color: aliceblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    font-family: 'Share Tech Mono', monospace;
+    background: #0f3854;
+    text-decoration: none;
+  }
+
+p {
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+    text-align: center;
+    font-size: 80px;
+}
+#clock {
+    font-family: 'Share Tech Mono', monospace;
+    color: #ffffff;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #daf6ff;
+    text-shadow: 0 0 20px rgba(10, 175, 230, 1),  0 0 20px rgba(10, 175, 230, 0);
+
+
+}
